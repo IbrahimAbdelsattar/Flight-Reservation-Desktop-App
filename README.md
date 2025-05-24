@@ -28,15 +28,15 @@ A user-friendly desktop application built with **Python**, **Tkinter**, and **SQ
 ## 📂 File Structure
 
 flight_reservation_app/
-├── main.py # Main application launcher
-├── database.py # DB connection and table setup
-├── home.py # Home UI with navigation
-├── booking.py # Booking form page
-├── reservations.py # List and manage reservations
-├── edit_reservation.py # Edit/Delete reservations
-├── flights.db # SQLite database file
-├── requirements.txt # Required Python packages
-├── README.md # Project documentation
+- ├── main.py # Main application launcher
+- ├── database.py # DB connection and table setup
+- ├── home.py # Home UI with navigation
+- ├── booking.py # Booking form page
+- ├── reservations.py # List and manage reservations
+- ├── edit_reservation.py # Edit/Delete reservations
+- ├── flights.db # SQLite database file
+- ├── requirements.txt # Required Python packages
+- ├── README.md # Project documentation
 
 ## 💡 Usage Instructions
 
