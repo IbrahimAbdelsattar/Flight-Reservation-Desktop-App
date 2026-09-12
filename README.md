@@ -1,220 +1,281 @@
 <br/><br/>
 
 <!-- Animated Title -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Flight Reservation Desktop App+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
-</a>
-
-<br/>
+<p align="center">
+  <a href="#">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=0284C7&center=true&vCenter=true&width=820&lines=Flight+Reservation+Desktop+App+%E2%9C%88%EF%B8%8F;Python+Tkinter+GUI+%C2%B7+SQLite+Relational+Engine;Passenger+Booking+%C2%B7+Seat+Assignment+%C2%B7+Ticket+Audit;Standalone+Windows+Executable+Distribution" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
-  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
-  <i>Data Analysis Frameworks · Python 3.10+</i>
+  <b>Comprehensive Desktop Flight Reservation & Passenger Management System</b><br/>
+  <i>Modular Tkinter Interface · Relational SQLite Persistence · Full Reservation Lifecycle Management · Portable Binary Distribution</i>
 </p>
 
 <br/>
 
-<!-- Badges Row -->
+<!-- Badges Row 1: Core Technologies -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Data%20Analysis%20Frameworks-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python%203.10+-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/GUI-Tkinter-38B2AC?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter GUI" />
+  <img src="https://img.shields.io/badge/Database-SQLite3-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite3" />
+  <img src="https://img.shields.io/badge/Platform-Windows_x64-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Platform" />
+  <img src="https://img.shields.io/badge/Distribution-Standalone_.EXE-22C55E?style=for-the-badge&logo=package&logoColor=white" alt="Standalone EXE" />
+</p>
+
+<!-- Badges Row 2: Standards & Status -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Architecture-Modular_OOP-6366F1?style=for-the-badge" alt="Modular Architecture" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge" alt="Status" />
 </p>
 
 <br/>
 
-<!-- Quick Links -->
+<!-- Quick Navigation Bar -->
 <p align="center">
-  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-0284C7?style=flat-square" alt="Overview" /></a>
   &nbsp;
-  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  <a href="#-problem-statement--desktop-solution"><img src="https://img.shields.io/badge/🎯-Problem%20%26%20Solution-E11D48?style=flat-square" alt="Problem" /></a>
   &nbsp;
-  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  <a href="#-core-capabilities"><img src="https://img.shields.io/badge/🔥-Features-D97706?style=flat-square" alt="Features" /></a>
   &nbsp;
-  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square" alt="Architecture" /></a>
   &nbsp;
-  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+  <a href="#-database-schema"><img src="https://img.shields.io/badge/🗄️-Database%20Schema-7C3AED?style=flat-square" alt="Schema" /></a>
+  &nbsp;
+  <a href="#-quickstart--execution"><img src="https://img.shields.io/badge/🚀-Quickstart-4F46E5?style=flat-square" alt="Quickstart" /></a>
 </p>
-
-<br/>
 
 ---
 
 ## 📌 Overview
 
-**Flight Reservation Desktop App** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
+**Flight Reservation Desktop App** is a responsive desktop software suite designed for airline ticketing agents, travel desk coordinators, and administrative operators. Built with native **Python and Tkinter**, the application delivers a self-contained, offline-first passenger booking and flight management interface backed by an embedded **SQLite relational database**.
 
-> Designed for seamless integration, high scalability, and robust computational performance.
+The application eliminates administrative friction through an intuitive multi-window workflow:
+- **Instant Flight Booking**: Captures passenger identities, flight codes, origin/destination routes, scheduled travel dates, and seat assignments.
+- **Dynamic Ledger & History**: Real-time browsing and querying of all confirmed bookings.
+- **Reservation Modification & Cancellation**: On-the-fly seat reassignments, schedule adjustments, or passenger record updates with instant database synchronization.
+- **Pre-Compiled Portable Distribution**: Bundled with a compiled standalone Windows `.exe` allowing zero-dependency execution on any Windows workstation without installing Python or third-party packages.
 
----
-
-## 🎯 Problem & Solution Architecture
-
-<table>
-<tr>
-<td width="50%">
-
-### ❌ The Challenge
-
-Traditional analytical approaches face critical operational limitations:
-
-- 📉 Manual data wrangling and non-standardized preprocessing
-- 🔮 Lack of feature attribution and model explainability
-- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
-- 🔄 Inefficient deployment workflows and missing pipeline automation
-
-</td>
-<td width="50%">
-
-### ✅ Our Solution
-
-| Challenge | Implemented Solution |
-|-----------|----------------------|
-| Raw Data Noise | Automated cleaning & feature encoding |
-| Low Accuracy | Tuned ML ensembles & robust evaluation |
-| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
-| Missing Insights | Visual metric plots & structured reporting |
-
-</td>
-</tr>
-</table>
-
----
-
-## 🔥 Core Features
-
-<table>
-<tr>
-
-<td align="center" width="33%">
-<br/>
-<b>⚡ High Performance Architecture</b><br/><br/>
-Modular Code Structure<br/>
-Scalable Design Patterns<br/>
-Robust Error Handling<br/>
-Clean Interface Abstractions<br/><br/>
-</td>
-<td align="center" width="33%">
-<br/>
-<b>📊 Data Preprocessing & EDA</b><br/><br/>
-Automated Missing Value Imputation<br/>
-Feature Engineering & Scaling<br/>
-Outlier Detection & Removal<br/>
-Exploratory Data Analysis Plots<br/><br/>
-</td>
-<td align="center" width="33%">
-<br/>
-<b>🎯 Production Guardrails</b><br/><br/>
-Strict Input Validation<br/>
-Reproducible Seed Setting<br/>
-Model Artifact Persistence<br/>
-Comprehensive Logging<br/><br/>
-</td>
-</tr>
-</table>
-
----
-
-## 🏗️ System Architecture & Data Flow
-
-<br/>
-
-```mermaid
-flowchart LR
-    A["📥 Data Ingestion
-Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
-Feature Scaling & Encoding"]
-    B --> C["⚙️ Feature Engineering
-Domain Transformation"]
-    C --> D["🤖 Machine Learning Pipeline
-Model Training & Evaluation"]
-    D --> E["📊 Predictive Output & Metrics
-Interactive Dashboard / Reports"]
-    style A fill:#1e1b4b,color:#a5b4fc
-    style B fill:#312e81,color:#c7d2fe
-    style D fill:#1e3a5f,color:#93c5fd
-    style E fill:#14532d,color:#86efac
+```
+                  ┌────────────────────────────────────────────────────────┐
+                  │          Flight Reservation Desktop Engine             │
+                  │                                                        │
+[ User Input /  ]─┼──> [ Tkinter Navigation Coordinator ]                  ├──> [ Confirmed Booking ]
+[ UI Event Form ] │             │                                          │    - Seat Assignment
+                  │             ▼                                          │    - flights.db Record
+                  │    [ Schema Validation & Route Logic ]                 │    - Active Ticket Audit
+                  │             │                                          │    - Real-Time Modifications
+                  │             ▼                                          │
+                  │    [ SQLite3 Engine (flights.db) ] ──> CRUD Operations │
+                  └────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## ⚙️ Technical Stack
+## 🎯 Problem Statement & Desktop Solution
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Data Analysis Frameworks** | Core Framework / Library | Primary computing and analytical engine |
-| **Python 3.10+** | Core Framework / Library | Primary computing and analytical engine |
+### ❌ The Desktop Reservation Challenge
 
-</div>
+Ticketing desks and local flight terminals often grapple with operational hurdles:
+
+- 🌐 **Web Dependency & Latency**: Cloud-only ticketing platforms fail during network outages or bandwidth throttles.
+- 📦 **Complex Environment Setup**: Standard Python tools require users to install runtimes, virtual environments, and pip packages.
+- 📋 **Fragmented Paper/Spreadsheet Records**: Manual tracking leads to double-booked seats and lost ticket revisions.
+- 💻 **Heavy System Footprint**: Bloated enterprise ticketing software consumes excessive memory on legacy counter machines.
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ The Flight Reservation Solution
+
+| Challenge | Desktop Solution |
+| :--- | :--- |
+| **Offline Reliability** | **Zero-Network SQLite3**: Runs completely local with instantaneous transactional persistence. |
+| **Portable Distribution** | **Standalone Windows `.exe`**: One-click double-clickable binary with zero prerequisites. |
+| **Integrity Guarantees** | **Relational Schema**: Auto-incrementing primary key tracking passenger names, flights, and dates. |
+| **Lightweight Footprint** | Native **Tkinter**: Launches in under a second with $<30\text{MB}$ RAM consumption. |
+
+</td>
+</tr>
+</table>
 
 ---
 
+## 🔥 Core Capabilities
 
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
 
-## 📁 Directory Structure
+### 🎫 Booking Lifecycle
+<br/>
+<b>Complete Ticket Management</b>
+<p align="left">
+• Full passenger name recording<br/>
+• Flight number verification<br/>
+• Origin & destination airports<br/>
+• Date & seat allocation<br/>
+• Immediate database commit
+</p>
 
-<details>
-<summary><b>📂 Click to expand repository tree</b></summary>
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🔍 Ledger & Search
+<br/>
+<b>Audit & Record Inspection</b>
+<p align="left">
+• Chronological reservation lists<br/>
+• Passenger identity verification<br/>
+• Flight manifest oversight<br/>
+• Clean tabular view formatting<br/>
+• Fast SQLite indexed lookups
+</p>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### ✏️ Editing & Canceling
+<br/>
+<b>Dynamic Record Updates</b>
+<p align="left">
+• Modify existing ticket details<br/>
+• Seat reallocation on the fly<br/>
+• Schedule & destination updates<br/>
+• Safe booking cancellation<br/>
+• Transactional consistency
+</p>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ System Architecture
+
+The application is engineered using clean **Object-Oriented Programming (OOP)** patterns with decoupled view controllers and a dedicated database abstraction layer.
+
+```mermaid
+graph TD
+    subgraph ViewControllers["Presentation Layer (Tkinter Controllers)"]
+        MainApp["Main Application Controller (main.py)"]
+        HomePage["Home Navigation Hub (home.py)"]
+        BookingPage["Passenger Booking View (booking.py)"]
+        ReservationsPage["Active Reservations Ledger (reservations.py)"]
+        EditPage["Edit & Modify View (edit_reservation.py)"]
+    end
+
+    subgraph DataAccess["Persistence & Data Layer"]
+        DBConnector["Database Layer (database.py)"]
+        SQLiteDB[("SQLite Storage (flights.db)")]
+    end
+
+    MainApp --> HomePage
+    HomePage -->|"New Booking"| BookingPage
+    HomePage -->|"View All"| ReservationsPage
+    HomePage -->|"Edit Existing"| EditPage
+    
+    BookingPage -->|"INSERT INTO reservations"| DBConnector
+    ReservationsPage -->|"SELECT * FROM reservations"| DBConnector
+    EditPage -->|"UPDATE / DELETE reservations"| DBConnector
+    
+    DBConnector --> SQLiteDB
+```
+
+---
+
+## 🗄️ Database Schema
+
+The underlying SQLite database (`flights.db`) maintains a single normalized table with transactional integrity:
+
+```sql
+CREATE TABLE IF NOT EXISTS reservations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    flight_number TEXT NOT NULL,
+    departure TEXT NOT NULL,
+    destination TEXT NOT NULL,
+    date TEXT NOT NULL,
+    seat_number TEXT NOT NULL
+);
+```
+
+| Field Name | Type | Constraints | Description |
+| :--- | :--- | :--- | :--- |
+| `id` | `INTEGER` | `PRIMARY KEY AUTOINCREMENT` | Unique identifier assigned to each reservation |
+| `name` | `TEXT` | `NOT NULL` | Full legal passenger name |
+| `flight_number` | `TEXT` | `NOT NULL` | Airline carrier flight code (e.g., `MS-777`) |
+| `departure` | `TEXT` | `NOT NULL` | Origin city or departure airport code |
+| `destination` | `TEXT` | `NOT NULL` | Target arrival city or destination airport code |
+| `date` | `TEXT` | `NOT NULL` | Scheduled date of departure |
+| `seat_number` | `TEXT` | `NOT NULL` | Allocated cabin seat designation (e.g., `14A`) |
+
+---
+
+## 📁 Repository Structure
 
 ```
 Flight-Reservation-Desktop-App/
-├── Flight Reservation Desktop App.exe
-├── README.md
-├── booking.py
-├── database.py
-├── edit_reservation.py
-├── home.py
-├── main.py
-├── requirements.txt
-├── reservations.py
+├── 📄 Flight Reservation Desktop App.exe # Pre-compiled standalone Windows executable
+├── 📄 main.py                          # Master application lifecycle & window coordinator
+├── 📄 home.py                          # Main navigation dashboard
+├── 📄 booking.py                       # Booking form view & passenger data entry
+├── 📄 reservations.py                  # Active bookings list & ticket ledger view
+├── 📄 edit_reservation.py              # Record search, modification & cancellation handler
+├── 📄 database.py                      # SQLite3 database connection & table initialization
+├── 📄 requirements.txt                 # Python runtime dependencies
+└── 📄 README.md                        # Documentation
 ```
-
-</details>
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Execution
 
-### Prerequisites
+### Option 1: Standalone Portable Binary (Zero Setup)
+Simply double-click the included executable:
+```
+Flight Reservation Desktop App.exe
+```
+*No Python installation or dependency download required.*
 
-- Python 3.10+ (or Node.js 18+ for web apps)
-- Git & Virtualenv
+---
 
-### Installation & Execution
+### Option 2: Running from Source Code
+
+#### Prerequisites
+- **Python**: 3.10 or higher
+- **Tkinter**: Included by default in standard Python distributions
 
 ```bash
-# 1. Clone the repository
+# 1. Clone repository
 git clone https://github.com/IbrahimAbdelsattar/Flight-Reservation-Desktop-App.git
 cd Flight-Reservation-Desktop-App
 
-# 2. Set up virtual environment (Python)
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Launch project execution
+# 2. Run application
 python main.py
 ```
 
 ---
 
-## 👤 Author & Contact
-
-<div align="center">
+## 👥 Author & Connect
 
 **Ibrahim Abdelsattar**  
-*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
+*AI Engineer & Software Developer*
 
-[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
+- 🌐 **GitHub**: [@IbrahimAbdelsattar](https://github.com/IbrahimAbdelsattar)
+- 💼 **LinkedIn**: [Ibrahim Abdelsattar](https://www.linkedin.com/in/ibrahim-abdelsattar/)
+- 📧 **Email**: [ibrahimabdelsattar042@gmail.com](mailto:ibrahimabdelsattar042@gmail.com)
 
-<br/>
+---
 
-<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
-
-</div>
+<p align="center">
+  <sub>Built for reliable desktop workflow automation & passenger ticketing. © 2026 Flight Reservation System.</sub>
+</p>
