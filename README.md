@@ -27,6 +27,44 @@ A small Tkinter desktop project for creating, viewing, editing, and deleting loc
 
 `sqlite3` ships with Python, and Tkinter is provided by the Python/Tk installation. The existing `requirements.txt` lists these standard-library modules; do not install it with pip. On systems without Tk support, install the platform's Python Tk package. A Windows executable is also included, but its runtime behavior has not been validated here.
 
+## UML diagrams
+
+### Page class diagram
+
+These are the Tkinter page classes and their navigation dependencies. The existing circular imports still need resolution before the documented app can launch.
+
+```mermaid
+classDiagram
+    direction TB
+    class App {
+        +show_home()
+    }
+    class HomePage {
+        +go_to_booking()
+        +go_to_reservations()
+    }
+    class BookingPage {
+        +book_flight()
+        +back()
+    }
+    class ReservationListPage {
+        +load_data()
+        +edit()
+        +back()
+    }
+    class EditReservationPage {
+        +update()
+        +delete()
+        +back()
+    }
+    App --> HomePage : displays
+    HomePage ..> BookingPage : opens
+    HomePage ..> ReservationListPage : opens
+    ReservationListPage ..> EditReservationPage : opens
+    BookingPage ..> HomePage : returns
+    EditReservationPage ..> ReservationListPage : returns
+```
+
 ## Getting started
 
 ```bash
